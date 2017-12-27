@@ -10,9 +10,9 @@
 
 The models were trained on gtx 1060 using lstm to generate text from book [alice's adventure in wonderland](https://www.gutenberg.org/ebooks/11).
 
-Keras: ```[Keras_model.ipynb]```(./keras_model.ipynb)
+Keras: [`Keras_model.ipynb`](./keras_model.ipynb)
 
-Pytorch: ```[PyTorch_model.ipynb](./torch_model.ipynb)```
+Pytorch: [`PyTorch_model.ipynb`](./torch_model.ipynb)
 
 ## Sample Output
 
