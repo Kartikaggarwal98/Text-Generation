@@ -1,25 +1,36 @@
 # Text generation in keras
 
 ### Package Requirements:
-1. Keras
-2. Tensorflow
+1. Keras 2.1.2
+2. Tensorflow 1.3.0
 3. numpy
 4. hdf5
+5. Python 3.6
+6. torch 0.3.0
 
-The models were trained on gtx 1060.
+The models were trained on gtx 1060 using lstm to generate text from book [alice's adventure in wonderland](https://www.gutenberg.org/ebooks/11).
 
-[model-2](./lstm_model_2.ipynb): Using 2-layer lstm to generate text from book [alice's adventure in wonderland](https://www.gutenberg.org/ebooks/11).
+[Keras_model](./lstm_model_2.ipynb)
 
-Text generated after 10 iterations:
+[PyTorch_model](./torch_model.ipynb)
 
-a can of the pefection of the pefection of the preen way of the was of the court, and the was not and the sabbit said the fatter, and she was a little taid the fantens and the was nnt and the way of the was nn the was nn the was nn the was
+## Sample Output
 
-After 40 epochs:
+'''
+And Levin said, be a little three with the the grame back and she sounded of inso a timill of
+chouse the goten at was simenteng to herself ho say in she think.
 
-did you say pig, or fig? "
-’ said the gatter.
+‘Then’ said the Mouse was satith of have sounding at the crost. The was got to bake it had she who with any side,’ said Alice, and the one the ond the woors, and the steless that sood the dryell, and the croass as is chorse.
 
-‘i dan’t reter with his head!’ said the daterpillar.
+‘They’re getter the some wonder the tall she hid tone sight has say. ‘I’ve
+said a little she the out,’ said the Mock Turtle, ‘and some, and
+with her had now, and they said, and all she weat all when
+when while would nat, who then the climes of some, is’s sounting.
 
-‘well, i shall have to be a little breatures found anl the same thing it in the mext with tie same thing it was out of tight and the sable, she was no the sabbit was a little garter, and she whole she was gerting seamed to her hn the court, 
-‘i wish i hadn’t think it must be,’ said the daterpillar.
+‘You dry won’t be the dees!’ said Alice.
+
+‘I’ve talk to have a moune to sat and she was as is was that it was, and was it it.
+
+‘Well, began to mome of the then toll,’ said the Caterpillar. ‘This I’s again the to the coult of the sare, which is as the soon the conlars, but the she had net han hand it to had the some and
+that said, the Dormouse of sormons-to herself.
+'''
